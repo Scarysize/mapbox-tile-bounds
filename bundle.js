@@ -133,7 +133,7 @@ map.on('load', function () {
   // Raster Source + Layer with bounding box check
   (0, _addSourceWithBounds2.default)('raster-source', {
     type: 'raster',
-    tiles: ['http://a.tile.stamen.com/toner/{z}/{x}/{y}.png']
+    tiles: ['https://a.tile.openstreetmap.org/{z}/{x}/{y}.png']
   }, boundingBox, map);
   map.addLayer({
     source: 'raster-source',
