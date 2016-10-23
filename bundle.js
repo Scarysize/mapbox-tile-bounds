@@ -123,8 +123,8 @@ function drawBbox() {
     id: 'bbox-layer',
     type: 'line',
     paint: {
-      'line-width': 4,
-      'line-color': '#0f0'
+      'line-width': 5,
+      'line-color': '#f00'
     }
   });
 }
